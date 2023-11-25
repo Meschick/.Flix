@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.flix - Seu site de filme </title>
+  <!--Link CSS-->
+  <link rel="stylesheet" href="./style/estilo.css">
+  <!--Link das Fonts-->
+  <link rel="stylesheet" href="./font/font.css">
+  <!--Link Do Slide Card-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="./JavaScript/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="container-nav">
+      <div class="logo-site">
+        <a href="">
+          <h2><span class="ponto">.</span>FLIX</h2>
+        </a>
+      </div>
+      <!--Fechamento logo-->
+      <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#elenco">Elenco</a></li>
+          <li><a href="#onde assistir">Onde Assistir</a></li>
+          <li><a href="#lançados">Lançados</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="line"></div>
+        <!--Linha da nav bar-->
+      </nav>
+      <!--Fechamento Nav-->
+
+    </div>
+    <!--Fechamento container-->
+  </header>
+  <!--Fechamento Header-->
+  <div id="Bannner">
+    <img src="./Assets/banner2.jpg" alt="Banner site">
+  </div>
+  <!--Fechamento Div-->
+  <main>
+    <section id="sobre">
+      <div id="container-principal">
+        <div class="conteúdo ">
+          <img src="./Assets/li.jpg" alt="foto 1">
+        </div>
+        <div class="conteúdo ">
+          <img src="./Assets/fa.jpg" alt="foto2">
+        </div>
+        <div class="conteúdo ">
+          <h2>Sobre</h2>
+          <p>
+            The Fast and the Furious (também conhecido como Velozes e Furiosos) é uma franquia de mídia e Universo
+            Compartilhado centrado em uma série de filmes de ação que estão amplamente preocupados com corridas de rua,
+            assaltos, espiões e família. A franquia também inclui curtas-metragens, uma série de televisão, videogames e
+            atrações de parques temáticos. É distribuído pela Universal Pictures.
+          </p>
+          <button id="cor" onclick="clicar()">Curiosidades</button>
+        </div>
+      </div>
+    </section>
+    <section id="curiosidades">
+      <div class="titulo">
+        <h2>Curiosidades</h2>
+      </div>
+      <div id="container-secundario">
+        <div class="curiosidades">
+          <img src="./Assets/wow.png" alt="emoji">
+          <p>
+            " A cena dos carros saltando de um avião a céu aberto foi feito de forma real, em que foram implantados
+            paraquedas nas máquinas."
+          </p>
+
+
+        </div>
+        <!--Fechamento Div-->
+        <div class="curiosidades">
+          <img src="./Assets/wow.png" alt="emoji">
+          <p>
+            "Antes de Paul Walker ganhar o papel principal, o nome do rapper Eminem foi cogitado. Já imaginou? "
+          </p>
+
+        </div>
+        <!--Fechamento Div-->
+        <div class="curiosidades">
+          <img src="./Assets/wow.png" alt="emoji">
+          <p>
+            "Mesmo com o título 'Operação Rio', grande parte das filmagens foram em Porto Rico e Atlanta."
+          </p>
+
+        </div>
+        <!--Fechamento Div-->
+        <div class="curiosidades">
+          <img src="./Assets/wow.png" alt="emoji">
+          <p>
+            "O primeiro carro de Brian, personagem de Paul Walker, foi escolhido a dedo pelo ator. Ele fazia parte da
+            coleção pessoal de Paul, que era fã de corridas desde muito tempo."
+          </p>
+
+        </div>
+        <!--Fechamento Div-->
+      </div>
+    </section>
+    <!--Fechamento Container Secundario-->
+
+
+    <div class="titulo1">
+      <h2>Elenco</h2>
+    </div>
+
+    <section id="elenco">
+      <div id="slide-cards">
+        <div class="container">
+          <div class="content">
+
+            <div class="card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="./Assets/torreto.jpg" alt="image 1">
+                </div>
+
+                <div class="name-ator">
+                  <span class="name">Vin Diesel</span>
+                </div>
+
+              </div>
+              <!--Fechamento content-->
+
+            </div>
+            <!--Fechamento Cards-->
+
+            <div class="card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="./Assets/walker.jpg" alt="image 1">
+                </div>
+
+                <div class="name-ator">
+                  <span class="name">Paul Walker</span>
+                </div>
+
+              </div>
+              <!--Fechamento content-->
+
+            </div>
+            <!--Fechamento Cards-->
+            <div class="card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="./Assets/michelle.jpg" alt="image 1">
+                </div>
+
+                <div class="name-ator">
+                  <span class="name">Michelle R.</span>
+                </div>
+
+              </div>
+              <!--Fechamento content-->
+
+            </div>
+            <!--Fechamento Cards-->
+            <div class="card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="./Assets/luda cris.jpg" alt="image 1">
+                </div>
+
+                <div class="name-ator">
+                  <span class="name">Ludacris</span>
+                </div>
+
+              </div>
+              <!--Fechamento content-->
+
+            </div>
+            <!--Fechamento Cards-->
+            <div class="card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="./Assets/jason.jpg" alt="image 1">
+                </div>
+
+                <div class="name-ator">
+                  <span class="name">Jason S.</span>
+                </div>
+
+              </div>
+              <!--Fechamento content-->
+
+            </div>
+            <!--Fechamento Cards-->
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slide-cards2">
+      <div class="container">
+        <div class="content">
+
+          <div class="card">
+
+            <div class="card-content">
+
+              <div class="image">
+                <img src="./Assets/jordana.jpg" alt="image 1">
+              </div>
+
+              <div class="name-ator">
+                <span class="name">Jordana B.</span>
+              </div>
+
+            </div>
+            <!--Fechamento content-->
+
+          </div>
+          <!--Fechamento Cards-->
+          <div class="card">
+
+            <div class="card-content">
+
+              <div class="image">
+                <img src="./Assets/tyrese.jpg" alt="image 1">
+              </div>
+
+              <div class="name-ator">
+                <span class="name">Tyrese G.</span>
+              </div>
+
+            </div>
+            <!--Fechamento content-->
+
+          </div>
+          <!--Fechamento Cards-->
+          <div class="card">
+
+            <div class="card-content">
+
+              <div class="image">
+                <img src="./Assets/sung.jpg" alt="image 1">
+              </div>
+
+              <div class="name-ator">
+                <span class="name">Sung Kang</span>
+              </div>
+
+            </div>
+            <!--Fechamento content-->
+
+          </div>
+          <!--Fechamento Cards-->
+          <div class="card">
+
+            <div class="card-content">
+
+              <div class="image">
+                <img src="./Assets/Dwayne.jpg" alt="image 1">
+              </div>
+
+              <div class="name-ator">
+                <span class="name">Dwayne J.</span>
+              </div>
+
+            </div>
+            <!--Fechamento content-->
+
+          </div>
+          <!--Fechamento Cards-->
+          <div class="card">
+
+            <div class="card-content">
+
+              <div class="image">
+                <img src="./Assets/jason2.jpg" alt="image 1">
+              </div>
+
+              <div class="name-ator">
+                <span class="name">Jason</span>
+              </div>
+
+            </div>
+            <!--Fechamento content-->
+
+          </div>
+          <!--Fechamento Cards-->
+
+
+        </div>
+        <!--Fechamento div-->
+      </div>
+      <!--Fechamento div-->
+    </section>
+    <!--Fechamento Section Slide 2-->
+    <div class="button">
+      <button onclick="clicar1()">Ver mais</button>
+    </div>
+    <!--Fechamento Button-->
+    <section id="onde assistir">
+      <div id="container-quatro">
+        <div id="imagem">
+          <img src="./Assets/carro.jpg" alt="imagem 3">
+        </div>
+        <div id="textos">
+          <h2>Onde Assistir ?</h2>
+          <p>
+            Você pode assistir ao filme "Velozes e Furiosos" em várias plataformas, como: Netflix, Amazon Prime Video,
+            Disney+, HBO Max, ou podem ser alugados ou comprados em lojas digitais como Google Play Filmes, Apple TV,
+            entre outras <span class="azul">.</span>
+          </p>
+        </div>
+        <!--Fechamento Textos-->
+      </div>
+      <!--Fechamento Container-Quatro-->
+    </section>
+    <!--Fechamento Section-->
+
+    <section id="lançados">
+      <div id="container-quinto">
+        <div class="cabeçalho">
+          <h2>Ranking das Franquias Lançadas</h2>
+        </div>
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa10.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 10 </h2>
+            <p>
+              No décimo filme da série Velozes & Furiosos e último da nova trilogia (Velozes 8, 9 e 10), ao longo de
+              muitas missões e contra probabilidades que pareciam impossíveis, Dom Toretto (Vin Diesel) e sua família
+              foram mais espertos e superaram todos os inimigos em seu caminho. Agora, eles devem desafiar o
+              adversário
+              mais letal que já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras do
+              passado
+              na forma de Dante (Jason Momoa), para destruir o mundo de Toretto e destruir tudo - e todos - que ele
+              ama.
+              Ele então, comandando novamente a equipe de corredores mais conhecida do mundo, encara mais uma difícil
+              missão sobre quatro rodas.
+            </p>
+          </div>
+
+        </div>
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa99.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 9</h2>
+            <p>
+
+              "Velozes e Furiosos 9", lançado em 2021, é uma jornada explosiva de ação, velocidade e emoção que leva a
+              franquia a novos patamares. O filme acompanha Dom Toretto, interpretado por Vin Diesel, e sua equipe
+              enfrentando seu desafio mais pessoal até então: o retorno de Jakob, irmão distante de Dom, interpretado
+              por John Cena, um assassino habilidoso e com sede de vingança. Enquanto isso, uma ameaça global surge na
+              forma de um plano que coloca o mundo em risco, forçando Dom a reunir sua equipe mais uma vez para deter
+              a
+              catástrofe iminente. Com reviravoltas inesperadas, cenas de ação espetaculares e a introdução de novos
+              personagens, como o retorno de Han, interpretado por Sung Kang, o filme explora laços familiares,
+              superação e o poder da união. "Velozes e Furiosos 9" oferece um espetáculo cinematográfico cheio de
+              emoção
+              e aventura, ampliando os limites da franquia e entregando uma experiência repleta de adrenalina aos fãs
+              da
+              saga
+            </p>
+          </div>
+
+        </div>
+        <!--Fechamento Container quinto-->
+
+    </section>
+    <!--Segunda parte do Ranking das Franquias Lançadas-->
+    <section>
+      <div id="container-quinto2">
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img class="imgg" src="./Assets/capa8.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 8 </h2>
+            <p>
+              "Velozes e Furiosos 8" é um filme de ação eletrizante que faz parte da renomada franquia "Velozes e
+              Furiosos". Lançado em 2017, o longa é centrado na saga de Dom Toretto, interpretado por Vin Diesel, que
+              se
+              encontra em uma situação inesperada quando é seduzido para o mundo do crime após ser manipulado por uma
+              misteriosa mulher chamada Cipher, vivida por Charlize Theron. O filme explora a lealdade de Dom à sua
+              equipe e à sua família, enquanto eles enfrentam desafios inéditos ao redor do mundo, envolvendo
+              perseguições de alta velocidade, ação explosiva e reviravoltas emocionantes. Com um elenco estelar,
+              cenas
+              de ação de tirar o fôlego e uma trama cheia de adrenalina, "Velozes e Furiosos 8" é uma montanha-russa
+              emocionante de emoções e velocidade.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa7.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 7 </h2>
+            <p>
+              "Velozes e Furiosos 7", lançado em 2015, é um capítulo marcante na franquia repleta de ação e
+              velocidade.
+              O filme começa com Dom Toretto, interpretado por Vin Diesel, e sua equipe retornando aos Estados Unidos
+              após os eventos de filmes anteriores. No entanto, suas vidas são viradas de cabeça para baixo quando um
+              temível assassino chamado Deckard Shaw, interpretado por Jason Statham, busca vingança pela morte de seu
+              irmão. A trama se desenrola em uma série de confrontos emocionantes ao redor do mundo, enquanto Dom e
+              sua
+              equipe se unem para enfrentar Shaw e um novo inimigo, contribuindo com cenas de ação espetaculares,
+              sequências de corridas alucinantes e um tributo emocional a Paul Walker, que interpretava Brian O'Conner
+              e
+              faleceu durante a produção do filme. Com uma mistura única de adrenalina, emoção e homenagens
+              comoventes,
+              "Velozes e Furiosos 7" é uma montanha-russa de emoções que deixou uma marca duradoura na franquia e nos
+              fãs.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa6.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 6</h2>
+            <p>
+
+              "Velozes e Furiosos 6" é um filme eletrizante que mergulha ainda mais fundo na ação e na camaradagem da
+              equipe liderada por Dom Toretto, interpretado por Vin Diesel. O longa, lançado em 2013, acompanha Dom e
+              sua equipe sendo recrutados por Luke Hobbs, interpretado por Dwayne Johnson, para ajudar a derrubar uma
+              perigosa organização criminosa liderada por Owen Shaw, vivido por Luke Evans. Em troca de perdão por
+              seus
+              crimes passados, Dom e sua equipe se unem em uma missão repleta de adrenalina, viajando por várias
+              cidades
+              da Europa e enfrentando perseguições de carros espetaculares e sequências de ação de tirar o fôlego. Com
+              reviravoltas emocionantes, cenas de corridas incríveis e um elenco carismático, "Velozes e Furiosos 6"
+              entrega uma experiência cinematográfica repleta de emoção e ação desenfreada.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa5.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 5</h2>
+            <p>
+
+              "Velozes e Furiosos 5: Operação Rio", lançado em 2011, marca um ponto crucial na franquia ao mudar o
+              jogo
+              para Dom Toretto, interpretado por Vin Diesel, e sua equipe. O filme começa com Dom sendo resgatado da
+              custódia por Brian O'Conner, vivido por Paul Walker, e Mia, interpretada por Jordana Brewster, durante
+              uma
+              transferência de prisão no Rio de Janeiro. Em fuga pela cidade, eles se unem para executar um plano
+              audacioso: roubar milhões de dólares do empresário corrupto e implacável Hernan Reyes. O objetivo é não
+              apenas enriquecer, mas também garantir sua liberdade. No entanto, para isso, precisam enfrentar um
+              obstáculo ainda maior: o agente federal Luke Hobbs, interpretado por Dwayne Johnson, determinado a
+              capturá-los. Com cenas de ação espetaculares, perseguições emocionantes pelas ruas do Rio e um elenco
+              carismático, "Velozes e Furiosos 5" é um mergulho profundo no mundo da velocidade e da adrenalina,
+              marcando um ponto alto na saga de Dom e sua equipe.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa4.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 4 </h2>
+            <p>
+              Em "Velozes e Furiosos 4", lançado em 2009, a franquia retorna com um toque de nostalgia ao trazer de
+              volta personagens queridos como Dom Toretto, interpretado por Vin Diesel, e Brian O'Conner, vivido por
+              Paul Walker. O filme se passa alguns anos após os eventos do primeiro filme, mostrando um Dom fugitivo
+              vivendo no México e Brian trabalhando como agente do FBI. Quando uma série de crimes ligados a um
+              traficante de drogas coloca os dois em rota de colisão novamente, eles são forçados a se unir para
+              enfrentar um inimigo em comum. A trama se desenrola em perseguições de carros emocionantes, reviravoltas
+              inesperadas e confrontos cheios de adrenalina. Com ação eletrizante e o retorno de personagens icônicos,
+              "Velozes e Furiosos 4" revitaliza a franquia, consolidando-se como um capítulo crucial na história de
+              Dom,
+              Brian e sua conexão através da velocidade e da lealdade.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa3.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 3 </h2>
+            <p>
+
+              "Velozes e Furiosos: Desafio em Tóquio" é um ponto de virada emocionante na série, trazendo uma
+              abordagem
+              diferente para a franquia de sucesso. Lançado em 2006, o filme segue Sean Boswell, interpretado por
+              Lucas
+              Black, um jovem apaixonado por corridas de rua que se envolve em problemas legais nos Estados Unidos.
+              Para
+              evitar a prisão, ele é enviado a Tóquio para viver com seu pai. Lá, ele entra no mundo das corridas
+              ilegais de carros, onde as apostas são altas e o drift, uma técnica de pilotagem, é a chave para a
+              vitória. Sean busca a orientação de um mestre do drift, interpretado por Sung Kang, conhecido como Han,
+              e
+              se envolve em desafios contra corredores locais, incluindo o arrogante DK, interpretado por Brian Tee. O
+              filme se destaca por suas espetaculares sequências de corridas, cultura japonesa e uma abordagem
+              renovada
+              para a paixão pela velocidade e pela habilidade de condução. Com uma trama emocionante e cenários
+              vibrantes, "Velozes e Furiosos: Desafio em Tóquio" oferece uma reviravolta eletrizante na série,
+              explorando um novo cenário e introduzindo novos elementos ao universo da corrida ilegal.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa2.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 2 </h2>
+            <p>
+
+              "Velozes e Furiosos 2" acelera com uma trama repleta de adrenalina que se passa após os eventos do
+              primeiro filme. Lançado em 2003, o longa traz de volta o ex-policial Brian O'Conner, interpretado por
+              Paul
+              Walker, agora fora da lei e em fuga nos Estados Unidos. Ele é recrutado pelo FBI para ajudar a derrubar
+              um
+              traficante de drogas utilizando suas habilidades de piloto. Brian se infiltra no submundo das corridas
+              de
+              rua em Miami e se associa a um novo parceiro, o ex-presidiário Roman Pearce, interpretado por Tyrese
+              Gibson. Juntos, eles entram em competições ilegais para ganhar a confiança do alvo. O filme é marcado
+              por
+              cenas de corridas emocionantes, reviravoltas na trama e a tensão entre os personagens enquanto lidam com
+              desafios e rivalidades. Com sua mistura de ação explosiva e emoção nas pistas, "Velozes e Furiosos 2"
+              mantém a vibração da franquia, explorando ainda mais o universo das corridas clandestinas e das relações
+              entre pilotos destemidos.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+        <div class="container-list">
+          <div class="img-cb">
+
+            <img src="./Assets/capa1.jpg" alt="imagem 10">
+          </div>
+          <div class="textos2">
+            <h2>Velozes e furiosos 1 </h2>
+            <p>
+              "Velozes e Furiosos", o filme que deu início a uma das franquias mais icônicas do cinema, foi lançado em
+              2001 e mergulhou os espectadores no mundo da cultura das corridas de rua e da velocidade extrema. A
+              história começa com Brian O'Conner, interpretado por Paul Walker, um policial jovem e destemido, sendo
+              enviado disfarçado para investigar um grupo de corredores de rua suspeitos de cometerem assaltos a
+              caminhões. Ele entra no círculo íntimo de Dom Toretto, interpretado por Vin Diesel, um carismático e
+              habilidoso piloto que lidera o grupo. Brian se vê dividido entre a lealdade à sua profissão e a
+              crescente
+              amizade com Dom, enquanto mergulha no mundo perigoso das corridas ilegais. O filme é marcado por cenas
+              de
+              ação emocionantes, corridas de carros incríveis e uma trama repleta de adrenalina, explorando temas de
+              família, lealdade e rivalidades nas ruas. Com sua atmosfera vibrante e personagens cativantes, "Velozes
+              e
+              Furiosos" conquistou o público e se tornou o ponto de partida para uma saga cinematográfica de sucesso.
+            </p>
+          </div>
+          <!--Fechamento textos2-->
+        </div>
+        <!--Fechamento container list-->
+
+      </div>
+    </section>
+    <!--Fechamento Section-->
+
+    <div class="button">
+      <button onclick="clicar()">Ver mais</button>
+    </div>
+    <!--Fechamento Button-->
+
+    <section id="contato">
+      <div id="container-form">
+
+        <div class="cabeçalho">
+          <h2>Contato</h2>
+        </div>
+        <div class="form">
+
+          <div class="logo">
+            <h2><span class="ponto">.</span>FLIX</h2>
+          </div>
+
+          <form action="enviar.php" method="post" name="FormularioEnvia">
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" placeholder=" Digite seu nome " id="nome" name="Nome" autofocus><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" placeholder="Digite seu Email" id="email" name="Email" autofocus><br>
+
+            <label for="mensagem">Assunto</label><br>
+            <input type="text" name="Assunto" placeholder="Qual é o assunto ?"><br>
+
+            <label for="mensagem">Mensagem</label><br>
+            <input type="text" name="Mensagem" placeholder=" Escreva uma Mensagem "><br>
+
+            <input type="submit" value="Enviar" id="btn-enviar" name="FormularioEnvia">
+          </form>
+        </div>
+      </div>
+      <!-- Fechamento Container-->
+    </section>
+    <!--Fechamento Section-->
+  </main>
+  <!--Fechamento Main-->
+  <footer>
+    <p>&copy Todos os Direitos Reservados</p>
+  </footer>
+
+</body>
+
+</html>
